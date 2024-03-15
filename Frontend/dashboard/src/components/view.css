@@ -1,0 +1,63 @@
+.viewcontainer {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.information li {
+    margin-bottom: 10px;
+}
+
+.information span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.buttons {
+    text-align: left;
+    margin: 50px 0 0 0;
+}
+
+.btn {
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
+
+.btn-information:hover {
+    background-color: #0056b3;
+}
+
+.btn-information:active {
+    background-color: #004080;
+}

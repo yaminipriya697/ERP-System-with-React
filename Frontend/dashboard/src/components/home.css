@@ -1,0 +1,88 @@
+.homecontainer {
+  margin: 200px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead tr {
+  height: 50px;
+  background-color: pink;
+}
+
+thead {
+  padding: 10px;
+  background-color: pink;
+}
+
+a {
+  font-size: 30px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 15px; /* Adjust the padding as needed */
+  font-size: 30px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.danger {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  font-size: 20px;
+  width: 100px;
+}
+
+.addbutton{
+  display:flex;
+}
+.success{
+  background-color: green;
+  border: 1px solid green;
+  font-size: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding : 15px;
+  margin-bottom: 20px;
+
+}
+.info {
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+  font-size: 20px;
+  width: 100px;
+}
+
+.primary {
+  background-color: blue;
+  font-size: 20px;
+  width: 100px;
+}
+
+.btn-primary:hover,
+.btn-danger:hover,
+.btn-info:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+}
